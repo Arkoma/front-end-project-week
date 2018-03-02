@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './css/App.css';
 import LeftRail from './containers/leftRail';
 import CoreRail from './containers/coreRail';
 

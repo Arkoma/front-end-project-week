@@ -298,19 +298,44 @@ table {
   text-align: left;
   font-family: Raleway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.42rem;
-  padding: 0px;
+  padding-right: 10px;
   line-height: 1.55;
 }
 .core-rail .delete-note-container {
   opacity: 50%;
 }
 @media (max-width: 1230px) {
-  .App .navButton-top {
-    padding-right: 0px;
-    padding-left: 0px;
+  .App .left-rail__title {
+    font-size: 2.4rem;
   }
-  .App .navButton-bottom {
+  .App .left-top-btn {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    position: absolute;
+    top: 152px;
+  }
+  .App .left-top-btn .navButton-top {
+    padding: 17px 5.5%;
+  }
+  .App .left-bottom-btn {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    position: absolute;
+    top: 252px;
+  }
+  .App .left-bottom-btn .navButton-bottom {
     padding: 17px 0px;
+  }
+}
+@media (max-width: 500px) {
+  .App .left-rail__title {
+    font-size: 1.6rem;
+    padding-right: 5px;
+  }
+  .App .left-bottom-btn {
+    top: 302px;
   }
 }
 .new-note-container {
@@ -426,4 +451,7 @@ table {
 }
 .edit-link--popup {
   color: black;
+}
+#root {
+  background: #f3f3f3;
 }
