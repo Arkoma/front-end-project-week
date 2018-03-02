@@ -328,6 +328,12 @@ table {
   .App .left-bottom-btn .navButton-bottom {
     padding: 17px 0px;
   }
+  .App .new-note-container {
+    width: 95%;
+  }
+  .App .new-note-container .new-note__content-input {
+    width: 85%;
+  }
 }
 @media (max-width: 500px) {
   .App .left-rail__title {
@@ -336,6 +342,34 @@ table {
   }
   .App .left-bottom-btn {
     top: 302px;
+  }
+  .App .new-note-container {
+    width: 70%;
+  }
+  .App .new-note-container .new-note__content-input {
+    width: 85%;
+  }
+  .App .core-rail {
+    width: 95%;
+    padding-right: 10px;
+  }
+  .App .core-rail .note-list .note-list-note {
+    width: 96%;
+  }
+  .App .core-rail .note-list .note-list-note .note-list-note__title {
+    font-size: 1.6rem;
+  }
+  .App .core-rail .note-list .note-list-note .note-list-note__body {
+    font-size: 1rem;
+  }
+  .App .core-rail .view-note-container {
+    width: 90%;
+  }
+  .App .core-rail .edit-button {
+    right: 150px;
+  }
+  .App .core-rail .delete-button {
+    right: 75px;
   }
 }
 .new-note-container {
